@@ -41,11 +41,34 @@ echo "<p>Sum: $sum</p>";
 <h1>Úkol E</h1>
 <?php
 $counter = 10;
-while ($counter >= 1) {
+while ($counter != 0) {
     echo $counter . "<br>";
-    $counter--;
+    
     if
-    ($counter = 1) {
+    ($counter == 1) {
         echo "Hotovo!";
     }
+    $counter--;
 }
+?>
+<h1>Úkol F</h1>
+<?php
+/* Protože je to"dělej dokud" smyčka, tak se nejdřív provede tělo smyčky a pak se kontroluje podmínka. */
+$number=8;
+do {
+    echo "Výpis čísla: $number <br>";
+
+}while($number < 5);
+
+while($number < 5) {
+    echo "Výpis čísla: $number <br>";
+}
+?>
+<h1>Úkol G</h1>
+<?php
+$number = 1;
+while ($number <= 5) {
+    echo "Výpis čísla: $number <br>";
+    $number++;
+}
+?>
