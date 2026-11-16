@@ -72,3 +72,4 @@ while ($number <= 5) {
     $number++;
 }
 ?>
+/*Protoze je proměná zadána chybně atím pádem je nefunkční podmínka.*/
