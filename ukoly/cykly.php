@@ -38,3 +38,14 @@ for ($i = 1; $i <= 100; $i++) {
 }
 echo "<p>Sum: $sum</p>";
 ?>
+<h1>Úkol E</h1>
+<?php
+$counter = 10;
+while ($counter >= 1) {
+    echo $counter . "<br>";
+    $counter--;
+    if
+    ($counter = 1) {
+        echo "Hotovo!";
+    }
+}
